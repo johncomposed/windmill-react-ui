@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import classNames from 'classnames'
 import { ThemeContext } from './context/ThemeContext'
 
-interface Props extends React.HTMLAttributes<HTMLDivElement> {}
+export interface Props extends React.HTMLAttributes<HTMLDivElement> {}
 
 const TableFooter = React.forwardRef<HTMLDivElement, Props>(function TableFooter(props, ref) {
   const { className, children, ...other } = props

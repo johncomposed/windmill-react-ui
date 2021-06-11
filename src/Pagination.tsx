@@ -26,7 +26,7 @@ const NextIcon: React.FC = function NextIcon(props) {
   )
 }
 
-interface NavigationButtonProps extends ButtonAsButtonProps {
+export interface NavigationButtonProps extends ButtonAsButtonProps {
   directionIcon: 'prev' | 'next'
 }
 
@@ -51,7 +51,7 @@ export const NavigationButton: React.FC<NavigationButtonProps> = function Naviga
   )
 }
 
-interface PageButtonProps extends ButtonAsButtonProps {
+export interface PageButtonProps extends ButtonAsButtonProps {
   /**
    * The page the button represents
    */
@@ -76,7 +76,7 @@ export const PageButton: React.FC<PageButtonProps> = function PageButton({
 
 export const EmptyPageButton = () => <span className="px-2 py-1">...</span>
 
-interface PaginationProps {
+export interface PaginationProps {
   /**
    * The total number of results
    */

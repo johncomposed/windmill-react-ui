@@ -6,7 +6,7 @@ import FocusLock from 'react-focus-lock'
 
 import { ThemeContext } from './context/ThemeContext'
 
-interface Props extends React.HTMLAttributes<HTMLDivElement> {
+export interface Props extends React.HTMLAttributes<HTMLDivElement> {
   /**
    * Function executed when the dropdown is closed
    */

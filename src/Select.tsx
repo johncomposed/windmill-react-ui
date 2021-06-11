@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import classNames from 'classnames'
 import { ThemeContext } from './context/ThemeContext'
 
-interface Props extends React.ComponentPropsWithRef<'select'> {
+export interface Props extends React.ComponentPropsWithRef<'select'> {
   /**
    * Defines the color of the select
    */

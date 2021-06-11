@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import classNames from 'classnames'
 import { ThemeContext } from './context/ThemeContext'
 
-interface Props extends React.HTMLAttributes<HTMLDivElement> {}
+export interface Props extends React.HTMLAttributes<HTMLDivElement> {}
 
 const ModalFooter = React.forwardRef<HTMLElement, Props>(function ModalFooter(props, ref) {
   const { children, className, ...other } = props

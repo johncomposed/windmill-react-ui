@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import classNames from 'classnames'
 import { ThemeContext } from './context/ThemeContext'
 
-interface Props extends React.HTMLAttributes<HTMLLabelElement> {
+export interface Props extends React.HTMLAttributes<HTMLLabelElement> {
   /**
    * Applies specific styles for checkboxes
    */

@@ -4,7 +4,7 @@ import { ThemeContext } from './context/ThemeContext'
 import Transition from './Transition'
 import FocusLock from 'react-focus-lock'
 
-interface Props extends React.HTMLAttributes<HTMLUListElement> {
+export interface Props extends React.HTMLAttributes<HTMLUListElement> {
   /**
    * Function executed when the dropdown is closed
    */
